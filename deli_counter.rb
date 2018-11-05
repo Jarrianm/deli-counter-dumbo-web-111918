@@ -16,3 +16,12 @@ def take_a_number (line,customer)
   line.push(customer)
 puts "Welcome, #{customer}. You are number #{line.length} in line."
 end
+
+def now_serving(line)
+  if line.size == 0
+    return "There is nobody waiting to be served!"
+  else
+    return "Currently serving #{line[0]}."
+    line.shift
+  end
+end
