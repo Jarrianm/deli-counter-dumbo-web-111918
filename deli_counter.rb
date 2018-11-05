@@ -1,5 +1,5 @@
 def line(array)
-  if array.length >= 1
+  if array.length = 0
       nuarray = []
       counter = 1
       array.each do |name|
