@@ -11,3 +11,8 @@ def line(array)
       puts "The line is currently empty."
     end
   end
+
+def take_a_number (line,customer)
+  line.push(customer)
+puts "Welcome, #{new_person}. You are number #{line.length} in line."
+end
