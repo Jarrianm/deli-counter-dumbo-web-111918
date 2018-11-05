@@ -14,5 +14,5 @@ def line(array)
 
 def take_a_number (line,customer)
   line.push(customer)
-puts "Welcome, #{new_person}. You are number #{line.length} in line."
+puts "Welcome, #{customer}. You are number #{line.length} in line."
 end
